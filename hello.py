@@ -12,7 +12,7 @@ class Player:
             self.choice = choice
             return choice
         else:
-            choice = input("Rock, Paper, or Scissors?  ")
+            choice = input("Rock, Paper, or Scissors?  ").lower()
             self.choice = choice
             return choice
     def removeLifePoint(self):
